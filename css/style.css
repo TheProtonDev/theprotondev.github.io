@@ -1,0 +1,32 @@
+:root {
+    --accent: mediumseagreen;
+    --bg: #242424
+}
+
+a {
+    color: var(--accent);
+}
+
+.accentSpan {
+    color: var(--accent);
+}
+body {
+    background-color: var(--bg);
+}
+p {
+    color: white;
+}
+.textInput {
+    display: contents;
+}
+#curserInput {
+    color: mediumseagreen;
+    background: var(--bg);
+    border: none;
+}
+/* Used for the old non functioning inputboxes so that they retain the old look */
+#curserInputa {
+    color: mediumseagreen;
+    background: var(--bg);
+    border: none;
+}
