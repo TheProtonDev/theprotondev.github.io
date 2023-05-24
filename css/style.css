@@ -1,6 +1,7 @@
 :root {
     --accent: mediumseagreen;
-    --bg: #242424
+    --bg: #242424;
+    --highlight: #00ade2;
 }
 
 a {
@@ -10,23 +11,31 @@ a {
 .accentSpan {
     color: var(--accent);
 }
+.consoleHighlightInfo {
+    display: contents;
+    color: var(--highlight);
+}
 body {
     background-color: var(--bg);
 }
 p {
     color: white;
 }
-.textInput {
+
+.cursorParagraphLine {
     display: contents;
 }
-#curserInput {
+
+#cursorInput {
     color: mediumseagreen;
     background: var(--bg);
+    outline: none !important;
     border: none;
 }
-/* Used for the old non functioning inputboxes so that they retain the old look */
-#curserInputa {
+
+#cursorInput_disabled {
     color: mediumseagreen;
     background: var(--bg);
+    outline: none !important;
     border: none;
 }
